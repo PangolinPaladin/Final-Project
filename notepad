@@ -1,0 +1,13 @@
+Check in 08.04
+            Not sure if this will be valuable time, really struggling with being able to focus after a long day building in the heat. one of my main issues is trying the remember these funcitons, I know we downloaded and initialized things, but I cannot remember exactly how those went, and know they were frought with strife. Thinking back months is killing me. 
+        Yesterday: Nothing 
+        Today: 
+            Setup some of my structure, including bringing over skeletons for index, css, html, and folders.
+            Patched over the crunchy stuff, json packages, pipfiles, vite.config, db.py, eslint, gitignores. 
+        Holdup: 
+            Getting everything running. Importing pipfiles from shrinkray today, we shall see if that helps.
+            Pipenv seemed to run the shell, and download fastapi and uvicorn successfully, and they showed up in Pipfile, but Terminal cannot seem to find either the file, or the command python. 
+        Notes: 
+            Do I need to create the .env and .gitignore files? Supabase I assume is needed, it would generate a new secret key correct? 
+
+    
