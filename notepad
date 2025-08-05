@@ -9,5 +9,6 @@ Check in 08.04
             Pipenv seemed to run the shell, and download fastapi and uvicorn successfully, and they showed up in Pipfile, but Terminal cannot seem to find either the file, or the command python. 
         Notes: 
             Do I need to create the .env and .gitignore files? Supabase I assume is needed, it would generate a new secret key correct? 
+            Pipfile and some others didn't update into github, even though they declared they did? 
 
     
