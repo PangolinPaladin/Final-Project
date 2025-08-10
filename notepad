@@ -9,6 +9,22 @@ Check in 08.04
             Pipenv seemed to run the shell, and download fastapi and uvicorn successfully, and they showed up in Pipfile, but Terminal cannot seem to find either the file, or the command python. 
         Notes: 
             Do I need to create the .env and .gitignore files? Supabase I assume is needed, it would generate a new secret key correct? 
-            Pipfile and some others didn't update into github, even though they declared they did? 
+            Ignore github concerns. Found.
+
+Check in 08.06
+    Yesterday: Nothing 
+    Today: 
+        Not a lot, didn't have much time but did some reading and fussed around, mostly unsuccessfully.
+    Holdup: 
+        The setup is KILLING ME. 
+
+Check in 08.10
+    Yesterday: Nothing 
+    Today: 
+        Really hoping I can get a meeting tomorrow to help walking through the setup of things. So today, Im just going to be just focusing on trying to get some roots or pages worked out, so that when Im online I can start moving through CSS and making sure the HTML is what I want
+        Got all my components put in, and tweaked to be what I think I want. Still need to do some CSS, and see if the colors fit. 
+    Holdup: 
+        Questions: In the jsx, we have the Aunthintication "call" in the middle of the list, but don't have to call a new list for that. I guess not a question but weird. 
+
 
     
