@@ -26,5 +26,21 @@ Check in 08.10
     Holdup: 
         Questions: In the jsx, we have the Aunthintication "call" in the middle of the list, but don't have to call a new list for that. I guess not a question but weird. 
 
-
+Check in 08-11
+    Yesterday
+        Got all my components coded, maybe some slight CSS changes, but minimal. I will need to call the Links/Routes once those are built 
+    Today: 
+        Starting with pages today. Still need to do my Crop pages: probably crop_addition, crop_maintenance, and current_crops? I want the path to be 
+        Home/Landing Page
+        --> current_crops
+            -->crop maintenance 
+                I need to find out how to just have this call which crop is being maintained... 
+            --> crop_addition 
+                this would add a new plant into the mainframe. 
+        First checkin, hoping to take and work through some Routes while my wife drives to the doctor but we'll see if I get too carsick. 
+        Hangups/Questions: 
+            why do some of the pages in shrinkray have semi-colons to end and others dont? 
+            Need to find a good tutorial of setting up node npm or whatever it was, along with python and pip shell. 
     
+notes from 08.12.25
+    Tokens in API is a good place to start looking at how time works in apps and understanding tracking. The session and tokens created have a timeout, watering schedule or harvesting schedule could possibly run on the same system?
