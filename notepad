@@ -43,6 +43,13 @@ Check in 08-11
             Need to find a good tutorial of setting up node npm or whatever it was, along with python and pip shell. 
     
 notes from 08.12.25
-    Tokens in API is a good place to start looking at how time works in apps and understanding tracking. The session and tokens created have a timeout, watering schedule or harvesting schedule could possibly run on the same system?
+    Tokens in API is a good place to start looking at how time works in apps and understanding tracking. 
+    The session and tokens created have a timeout, watering schedule or harvesting schedule could possibly 
+    run on the same system?
 
-    Git not finding the stupid files it already knows has changes is driving me up a wall. Between that and not knowing how to start python, it's a wonder it can find any bloody thing at all. 
+    Git not finding the stupid files it already knows has changes is driving me up a wall. 
+    Between that and not knowing how to start python, 
+    it's a wonder it can find any bloody thing at all. 
+
+notes 08.13.25
+    
