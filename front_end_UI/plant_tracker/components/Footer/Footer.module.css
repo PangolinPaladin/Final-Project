@@ -1,0 +1,11 @@
+.footer {
+    align-items: end;
+    background-color: rgb(123, 180, 80);
+    color: rgb(27, 43, 5);
+    display: flex;
+    justify-content: end;
+    padding: 32px 16px;
+    width: 100%;
+}
+
+/* I want to put the date at the front, just to be interesting */
