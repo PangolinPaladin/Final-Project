@@ -1,5 +1,5 @@
 import "react"
-import {SingIn, SignUp, SignedIn, SignedOut} from "@clerk/clerk-react"
+import {SignIn, SignUp, SignedIn, SignedOut} from "@clerk/clerk-react"
 
 export function AuthenticationPage() {
     return <div className ="auth-container">
