@@ -70,4 +70,5 @@ notes from 08.18
     UI still not working, finally fished all the mess out of the github, apparently I had .git files 
     breeding like cockroaches and hiding everywhere. 
     After hours I make the decision to scrap the frontend and restart. As of now, it's working. Finger crossed it stays. 
-    
+    Final note. Its 10:30. Im beat. It isn't working, console tells that the clerk plug in isn't providing "SingIn" just realized thats a misspelling. UGH. 
+    Rats. now it says export not provided, 'ClerkProviderWithRoutes". 
