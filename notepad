@@ -60,8 +60,14 @@ notes from 8.16.25
 
         Should line 15 of main.py (API side) not read config.py?
 
-the 16th was a hard day. Felt very behind, drowning, and failing at everything. I wanted to get started earlier today, didn't happen, 
+Notes from 08.17
+    the 16th was a hard day. Felt very behind, drowning, and failing at everything. I wanted to get started earlier today, didn't happen, 
 but I think the afternoon off with my girls was needed, and allowed my headspace to clear. Here we go. 
 
 I got aggrivated and camel broke when the npm created a folder, I am hoping I can move into that with my material 
 
+notes from 08.18
+    UI still not working, finally fished all the mess out of the github, apparently I had .git files 
+    breeding like cockroaches and hiding everywhere. 
+    After hours I make the decision to scrap the frontend and restart. As of now, it's working. Finger crossed it stays. 
+    
