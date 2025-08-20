@@ -72,3 +72,12 @@ notes from 08.18
     After hours I make the decision to scrap the frontend and restart. As of now, it's working. Finger crossed it stays. 
     Final note. Its 10:30. Im beat. It isn't working, console tells that the clerk plug in isn't providing "SingIn" just realized thats a misspelling. UGH. 
     Rats. now it says export not provided, 'ClerkProviderWithRoutes". 
+
+notes 0819
+    Hard evening but finally feel like I am making progress. 
+    utils.py in backend...
+        missing pylance import? 
+    He is using sqlalchemy, Ill have to reinterpret as Supabase
+        it looks like the way we did it for shrinkray was config.py which called db.py, 
+        as well as pulling from .env to get the secret key and url for postgres subapase. 
+        I am officially calling it as of 2140, it's been almost 4 hours at this tonight. Tired.
