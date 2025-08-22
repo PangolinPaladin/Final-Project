@@ -4,7 +4,7 @@ from datetime import datetime, timedelta, timezone
 import config
 import jwt
 
-from models.base import Base
+from old_models.base import Base
 # first we import the base model, then (below) create two new models for the app
 
 

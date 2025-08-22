@@ -1,7 +1,23 @@
-from src.app import app
-if __name__ == "__main__": 
-    import uvicorn
+
+import config
+
+from pydantic import BaseModel
 
 
-    uvicorn.run(app, host="0.0.0.0", port=8000)
-    
+app = FastAPI()
+
+if __name__ == '__main__':
+        uvicorn.run('server:app', 
+            host='localhost', 
+            port=8000,
+            reload=True)
+        
+
+# original verion 
+
+# from src.app import app
+
+# if __name__ == "__main__":
+#    import uvicorn
+#
+#    uvicorn.run(app, host="0.0.0.0", port=8000)

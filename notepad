@@ -80,4 +80,20 @@ notes 0819
     He is using sqlalchemy, Ill have to reinterpret as Supabase
         it looks like the way we did it for shrinkray was config.py which called db.py, 
         as well as pulling from .env to get the secret key and url for postgres subapase. 
-        I am officially calling it as of 2140, it's been almost 4 hours at this tonight. Tired.
+        I am officially calling it as of 2146, it's been almost 4 hours at this tonight. Tired.
+
+notes 0820
+    well, starting and I have a bunch of things broken, when they were clean last night. Gremlins. 
+    Nope. I do remember it was broken. Bunch of pylance stuff. 
+    said it was angry at Pylance, which is pat of vscode, seems to work despite. 
+    Not as much accomplished as I as hoping, but after some reading, I think I might understand databases more. 
+        Didn't have time to watch the class video, which I would like to, I have a framework built on Supabase, we shall see if I did it right
+        and if I can connect it.
+
+notes 0821
+    here we go. 
+    I don't really want the quota info, but. I think trying to pull it out will 
+        destroy more than I can fix, so It will have to comes out with the wheat. 
+        Maybe set it very high, that way it doesn't even actually show? 
+    Will need to remove the AI too. 
+

@@ -2,8 +2,8 @@ from fastapi import HTTPException, status, Depends
 from fastapi.security import OAuth2PasswordBearer
 from sqlmodel import Session, select
 
-from models.users import User, UserAccountSchema
-from models.tokens import TokenData, is_token_blacklisted
+from old_models.users import User, UserAccountSchema
+from old_models.tokens import TokenData, is_token_blacklisted
 from db import get_session
 
 import config

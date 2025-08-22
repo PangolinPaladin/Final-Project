@@ -2,7 +2,7 @@
 from sqlmodel import Field, Column, String, UniqueConstraint
 from pydantic import EmailStr
 import bcrypt
-from models.base import Base
+from old_models.base import Base
 
 class UserBase(Base):
     email: EmailStr = Field(sa_column=Column(String(225), unique=True))

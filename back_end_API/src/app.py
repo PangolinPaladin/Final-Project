@@ -1,18 +1,23 @@
-from fastapi import FastAPI, Request, Response
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from clerk_backend_api import Clerk
-import os
-
-clerk_sdk = Clerk(bearer_auth=os.getenv("CLERK_SECRET-KEY"))
+from .routes import challenge, webhooks
 
 app = FastAPI()
 
 app.add_middleware(
-    CORSMiddleware, 
-    allow_origins=["*"], 
-    allow_credentials=True, 
-    allow_methods=["*"], 
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
     allow_headers=["*"]
-    )
-# origins should be the local host we are using, ie 5174, for now asterisk allows everything, just to prevent errors. 
+)
 
+
+app.include_router(challenge.router, prefix="/api")
+app.include_router(webhooks.router, prefix="/webhooks")
+
+if __name__ == '__main__':
+        uvicorn.run('main:app', 
+            host='localhost', 
+            port=8000,
+            reload=True)
